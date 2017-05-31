@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class ThreeLetters {
+
+	public static void main(String[] args) {
+	        
+	        String monthName;
+	        Scanner keyboard = new Scanner(System.in);
+	    System.out.println("Input first 3 letters of month to get number of days in that month:");
+	    monthName = keyboard.next();
+	    
+	    
+if ((monthName.equalsIgnoreCase("jan")) || (monthName.equalsIgnoreCase("apr")) || (monthName.equalsIgnoreCase("jun")) || (monthName.equalsIgnoreCase("sep")) || (monthName.equalsIgnoreCase("nov"))){ 
+	    		
+	    	System.out.println("There are 30 days in " +monthName);
+ }
+if  ((monthName.equalsIgnoreCase("mar")) || (monthName.equalsIgnoreCase("may")) || (monthName.equalsIgnoreCase("jul")) || (monthName.equalsIgnoreCase("oct")) || (monthName.equalsIgnoreCase("dec"))){    	
+	    	
+	    	System.out.println("There are 31 days in " +monthName);
+}
+if (monthName.equalsIgnoreCase("feb")){
+	       
+	        System.out.println("There are 28 days in " +monthName);
+}
+ 
+else{
+	System.out.println("LOLZ");
+}
+}
+}

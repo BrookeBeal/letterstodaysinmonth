@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;ThreeLetters.main().choice&apos; in &apos;ThreeLetters.main()&apos; to field&#x0A;- Original project: &apos;ThreeLettersToDays&apos;&#x0A;- Original element: &apos;ThreeLetters.main().choice&apos;&#x0A;- Field name: &apos;choice&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;choice&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{ThreeLetters.java" name="choice" selection="193 31" stamp="1496191931260" static="true" version="1.0" visibility="2"/>
+</session>

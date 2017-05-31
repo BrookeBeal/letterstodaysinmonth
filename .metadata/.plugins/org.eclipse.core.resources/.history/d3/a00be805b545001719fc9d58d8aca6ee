@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class ThreeLetters {
+
+	public static void main(String[] args) {
+	        
+	        
+	              int jan = 30,
+	            		april =30,
+	            		   june = 30,
+	            		   	 september = 30,
+	            		        november = 30;
+	              
+	              int march =31,
+	            		  may =31,
+	            		   july =31,
+	            		     october = 31,
+	            		       december = 31;
+	              
+	              int february = 28;
+	            		  
+
+	  
+	        String monthName;
+	        Scanner keyboard = new Scanner(System.in);
+	    System.out.println("Enter:");
+	    monthName = keyboard.next();
+	    
+	    
+	    if (monthName.equalsIgnoreCase("jan")){
+	    	System.out.println("There are 30 days in " +monthName);
+	    	
+	    	
+	    	
+	    }
+	       
+	       
+	        
+	    }
+	}
